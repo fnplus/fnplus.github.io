@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- start Mixpanel -->
-<script type="text/javascript">(function (c, a) {
+<script>(function (c, a) {
 		if (!a.__SV) {
 			var b = window; try { var d, m, j, k = b.location, f = k.hash; d = function (a, b) { return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null }; f && d(f, "state") && (j = JSON.parse(decodeURIComponent(d(f, "state"))), "mpeditor" === j.action && (b.sessionStorage.setItem("_mpcehash", f), history.replaceState(j.desiredHash || "", c.title, k.pathname + k.search))) } catch (n) { } var l, h; window.mixpanel = a; a._i = []; a.init = function (b, d, g) {
 				function c(b, i) {
@@ -16,7 +16,7 @@
 				MIXPANEL_CUSTOM_LIB_URL : "file:" === c.location.protocol && "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js"; d = c.getElementsByTagName("script")[0]; d.parentNode.insertBefore(b, d)
 		}
 	})(document, window.mixpanel || []);
-	mixpanel.init("f8eff7429216985a643628c74af051b9");</script>
+	mixpanel.init("a9c6c2164a7b846cc52d03d89feed4b1")</script>
 <!-- end Mixpanel -->
 
 <head>
@@ -36,7 +36,7 @@
 	<meta property="og:title" content="Your Personal Growth Story Starts Here | Fn+Geeks" />
 	<meta property="og:description"
 		content="We are a personalised, community-driven learning experience platform for in-demand technical and 21st-century skills." />
-	<meta property="og:url" content="https://fnplus.tech" />
+	<meta property="og:url" content="https://www.fnplus.tech" />
 	<meta property="og:image" content="/icons/android-chrome-384x384.png" />
 	<link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
 
@@ -54,13 +54,13 @@
 	<meta name="theme-color" content="#ffffff">
 	<!-- Google Tag Manager -->
 	<script>(function (w, d, s, l, i) {
-			w[l] = w[l] || []; w[l].push({
-				'gtm.start':
-					new Date().getTime(), event: 'gtm.js'
-			}); var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-PWB8BQV');
+				w[l] = w[l] || []; w[l].push({
+					'gtm.start':
+						new Date().getTime(), event: 'gtm.js'
+				}); var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-PWB8BQV');
 	</script>
 	<!-- End Google Tag Manager -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -289,7 +289,7 @@
 		<div class="row">
 			<div class="col-md-12" data-aos="fade-up" data-aos-duration="3000">
 				<center>
-					<img src="images/index/learningcone.png" alt="The Learning Cone" style="width:70%">
+					<img data-src="images/index/learningcone.png" class="lazyload" alt="The Learning Cone" style="width:70%">
 					<h3 style="font-weight: 500;"> "I see & I forget, I hear & I remember, I do & I understand"
 					</h3>
 				</center>
@@ -316,7 +316,7 @@
 						</div>
 						<div class="graphics  aos-animate" data-aos="fade-left" data-aos-delay="300"
 							data-aos-duration="1500">
-							<img src="images/index/apply.png" alt="Apply at FnPlus" />
+							<img data-src="images/index/apply.png" class="lazyload" alt="Apply at FnPlus" />
 						</div>
 					</li>
 
@@ -329,7 +329,7 @@
 						</div>
 						<div class="graphics  aos-animate" data-aos="fade-right" data-aos-delay="300"
 							data-aos-duration="1500">
-							<img src="images/index/squad.png" alt="Build your learning squad" />
+							<img data-src="images/index/squad.png" class="lazyload" alt="Build your learning squad" />
 						</div>
 					</li>
 
@@ -342,7 +342,7 @@
 						</div>
 						<div class="graphics  aos-animate" data-aos="fade-left" data-aos-delay="300"
 							data-aos-duration="1500">
-							<img src="images/index/goals.png" alt="Set your learning goals" />
+							<img data-src="images/index/goals.png" class="lazyload" alt="Set your learning goals" />
 						</div>
 					</li>
 
@@ -355,7 +355,7 @@
 						</div>
 						<div class="graphics  aos-animate" data-aos="fade-right" data-aos-delay="300"
 							data-aos-duration="1500">
-							<img src="images/index/mentor.png" alt="test image" />
+							<img data-src="images/index/mentor.png" class="lazyload" alt="test image" />
 						</div>
 					</li>
 
@@ -368,7 +368,7 @@
 						</div>
 						<div class="graphics  aos-animate" data-aos="fade-left" data-aos-delay="300"
 							data-aos-duration="1500">
-							<img src="images/index/rituals.png" alt="Community Rituals" />
+							<img data-src="images/index/rituals.png" class="lazyload" alt="Community Rituals" />
 						</div>
 					</li>
 					<li>
@@ -380,7 +380,7 @@
 						</div>
 						<div class="graphics  aos-animate" data-aos="fade-right" data-aos-delay="300"
 							data-aos-duration="1500">
-							<img src="images/index/showcase.png" alt="Showcase Yourself" />
+							<img data-src="images/index/showcase.png" class="lazyload" alt="Showcase Yourself" />
 						</div>
 					</li>
 				</ul>
