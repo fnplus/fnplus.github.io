@@ -43,7 +43,7 @@ var load_widget = function($, ctx) {
       "Dec"
     ],
     addLink = function(content, link) {
-      return '<a target="_blank" href="' + link + '">' + content + "</a>";
+      return '<a target="_blank" rel="noopener" href="' + link + '">' + content + "</a>";
     },
     addImage = function(src, alt) {
       return src == ""
@@ -227,7 +227,7 @@ var load_widget = function($, ctx) {
                                         <div class="muupcom-content"> \
                                             <div class="mupast-widget-heading"><a class="hover-animation" href="' +
                     event.event_url +
-                    '" target="_blank">' +
+                    '" target="_blank" rel="noopener">' +
                     name +
                     "</a></div> \
                     <div class='muupcom-time'> " +
@@ -316,7 +316,7 @@ var load_widget = function($, ctx) {
         </div> \
         </section> \
         <div class="past-meetup-btn"> <a class="btn-view" \
-         target="_blank" \
+         target="_blank" rel="noopener" \
          href="https://www.meetup.com/geek-meetup-chennai/" \
          >Check out our Meetup Page<i class="icon-arrow-right3"></i></a> \
          </div>'
@@ -377,7 +377,7 @@ var load_widget = function($, ctx) {
                   description.substring(0, 1000) +
                   '.... <a href="' +
                   event.event_url +
-                  '" target="_blank">(Read More)</a>';
+                  '" target="_blank" rel="noopener">(Read More)</a>';
               }
 
               $(".content").append(
@@ -392,7 +392,7 @@ var load_widget = function($, ctx) {
                   '<div class="past-title">' +
                   '<a href="' +
                   event.event_url +
-                  '" target="_blank">' +
+                  '" target="_blank" rel="noopener">' +
                   event.name +
                   "</a>" +
                   "</div> <br />" +
