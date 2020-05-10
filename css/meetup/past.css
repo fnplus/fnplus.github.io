@@ -1,0 +1,218 @@
+.archive .previous-editions {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  width: 800px;
+  background-color: #c4ffd8;
+}
+.archive .previous-editions .events {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 1 25%;
+}
+.archive .previous-editions .events .years {
+  flex: 1 1 10%;
+  font-weight: 800;
+  font-size: 15px;
+  background-color: #60fe95;
+}
+.archive .previous-editions .events .years .year {
+  padding: 0px 0 10px 0;
+  height: 20px;
+  padding: 20px;
+  cursor: pointer;
+  color: #333333;
+  font-family: "Montserrat";
+}
+.archive .previous-editions .events .years .year.active {
+  background-color: #8effb4;
+}
+.archive .previous-editions .events .months {
+  flex: 1 1 11%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #8effb4;
+  color: #333333;
+  font-family: "Montserrat";
+}
+.archive .previous-editions .events .months .event {
+  padding: 0px 0 10px 0;
+  height: 20px;
+  padding: 20px;
+  display: none !important;
+  cursor: pointer;
+}
+.archive .previous-editions .events .months .event.active {
+  background-color: #c4ffd8;
+}
+.archive .previous-editions .events .months .event.show {
+  display: block !important;
+}
+.archive .previous-editions .content {
+  flex: 1 1 75%;
+}
+.archive .previous-editions .content .speakers {
+  display: none !important;
+  padding: 20px;
+  background-color: #c4ffd8;
+}
+
+.archive .previous-editions .content .speakers.active {
+  display: block !important;
+}
+
+/* Custom Styles */
+
+.past-title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #333333;
+  font-family: "Montserrat";
+}
+
+.past-title a:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.past-title a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.past-description {
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: #2d2d2d;
+}
+
+.past-description a {
+  font-weight: 600;
+}
+
+.past-description a:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.past-description a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.past-time {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: #2d2d2d;
+}
+
+.past-time span {
+  font-weight: 600;
+}
+
+.past-attended {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: #2d2d2d;
+}
+
+.past-attended span {
+  font-weight: 600;
+}
+
+.past-separator {
+  padding: 0 10px;
+}
+
+.past-meetup-btn {
+  margin-top: 40px !important;
+  float: right;
+}
+
+.past-meetup-btn a {
+  letter-spacing: 1px;
+}
+
+.past-meetup-btn i {
+  margin-left: 5px;
+}
+
+.past-know-more {
+  float: right;
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 15px;
+  background-color: #2d2d2d;
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.past-know-more a:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.past-know-more a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .archive .previous-editions {
+    width: 98%;
+  }
+
+  .archive .previous-editions .events .years {
+    flex: auto;
+    font-size: 8px;
+  }
+
+  .archive .previous-editions .events .years .year {
+    height: 15px;
+    padding: 5px;
+  }
+
+  .archive .previous-editions .events .months {
+    flex: auto;
+    font-size: 8px;
+  }
+
+  .archive .previous-editions .events .months .event {
+    height: 15px;
+    padding: 5px 2px 5px 5px;
+  }
+
+  .archive .previous-editions .content .speakers {
+    padding: 7px 5px 5px 5px;
+  }
+
+  .past-description {
+    font-size: 8px;
+  }
+
+  .past-time {
+    font-size: 8px;
+  }
+
+  .past-attended {
+    font-size: 8px;
+  }
+
+  .past-title {
+    font-size: 15px;
+  }
+
+  .past-know-more {
+    font-size: 10px;
+  }
+
+  .btn-view {
+    display: none;
+  }
+}

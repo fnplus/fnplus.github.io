@@ -1,0 +1,241 @@
+html>body .mup-widget a,
+html>body .mup-widget b,
+html>body .mup-widget blockquote,
+html>body .mup-widget body,
+html>body .mup-widget div,
+html>body .mup-widget em,
+html>body .mup-widget h1,
+html>body .mup-widget h3,
+html>body .mup-widget h4,
+html>body .mup-widget h5,
+html>body .mup-widget h6,
+html>body .mup-widget i,
+html>body .mup-widget img,
+html>body .mup-widget li,
+html>body .mup-widget ol,
+html>body .mup-widget p,
+html>body .mup-widget q,
+html>body .mup-widget span,
+html>body .mup-widget strong,
+html>body .mup-widget table,
+html>body .mup-widget tbody,
+html>body .mup-widget td,
+html>body .mup-widget tfoot,
+html>body .mup-widget th,
+html>body .mup-widget thead,
+html>body .mup-widget tr,
+html>body .mup-widget u,
+html>body .mup-widget ul,
+html>body .mup-widgeth2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-style: normal;
+    vertical-align: baseline;
+    background: 0 0;
+    line-height: normal;
+    text-transform: none
+}
+
+html>body .mup-widget img {
+    border: 0
+}
+
+html>body .mup-widget strong,
+th {
+    font-style: normal;
+    font-weight: 400
+}
+
+html>body .mup-widget li,
+html>body .mup-widget ol,
+html>body .mup-widget ul {
+    list-style: none
+}
+
+html>body .mup-widget th {
+    text-align: left
+}
+
+html>body .mup-widget h1,
+html>body .mup-widget h2,
+html>body .mup-widget h3,
+html>body .mup-widget h4,
+html>body .mup-widget h5,
+html>body .mup-widget h6 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+html>body .mup-widget blockquote,
+html>body .mup-widget q {
+    quotes: none
+}
+
+html>body .mup-widget blockquote:after,
+html>body .mup-widget blockquote:before,
+html>body .mup-widget q:after,
+html>body .mup-widget q:before {
+    content: '';
+    content: none
+}
+
+html>body .mup-widget :focus {
+    outline: 0
+}
+
+html>body .mup-widget table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html>body .mup-widget.error {
+    padding: 6px;
+    background: #1A1A1A
+}
+
+html>body .mup-widget .errorMsg {
+    padding: 6px;
+    background: #333;
+    color: #f2f2f2;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.mup-centered-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.framed-mup-widget {
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.mup-widget-2 {
+    font-family: "lucida grande", lucida, tahoma, helvetica, arial, sans-serif !important;
+    font-size: 12px
+}
+
+.mup-widget-2 .mup-widget,
+.mup-widget-2 .mup-widget .mup-hd a {
+    background: #1A1A1A;
+    color: #f2f2f2
+}
+
+.mup-widget-2 .mup-widget {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding-top: 8px
+}
+
+.mup-widget-2 .mup-widget h3,
+.mup-widget-2 .mup-widget h4,
+.mup-widget-2 .mup-widget p {
+    line-height: 1.2 !important;
+    text-align: center
+}
+
+.mup-widget-2 .mup-widget h3 {
+    font-size: 15px;
+    color: #f2f2f2;
+    font-weight: 700
+}
+
+.mup-widget-2 .mup-widget h4 {
+    font-size: 13px
+}
+
+.mup-widget-2 .mup-widget h5 {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 1px #1A1A1A
+}
+
+.mup-widget-2 .mup-widget p {
+    text-align: center
+}
+
+.mup-widget-2 .mup-widget .mup-bd,
+.mup-widget-2 .mup-widget .mup-bd p,
+.mup-widget-2 .mup-widget .mup-timeline {
+    color: #f2f2f2
+}
+
+.mup-widget-2 .mup-widget .mup-bd {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 8px 6px;
+    margin: 0 8px;
+    background: #333
+}
+
+.mup-widget-2 .mup-widget a,
+.mup-widget-2 .mup-widget a:active,
+.mup-widget-2 .mup-widget a:hover,
+.mup-widget-2 .mup-widget a:visited {
+    color: #f2f2f2;
+    text-decoration: none
+}
+
+.mup-widget-2 .mup-widget .mup-tlabel {
+    font-size: 8px;
+    color: #AAA
+}
+
+.mup-widget-2 .mup-widget .mup-stats {
+    display: block;
+    margin: 6px 0;
+    padding: 4px;
+    text-align: center;
+    background: #1A1A1A;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+
+.mup-widget-2 .mup-widget .mup-button {
+    display: block;
+    margin: 0 auto;
+    padding: 2px 4px;
+    background: #26B -webkit-gradient(linear, 0 0, 0 100%, from(#26B), to(#102f56));
+    background: #26B -moz-linear-gradient(0% 100% 90deg, #102F56, #26B);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #f2f2f2 !important;
+    text-align: center;
+    border: 1px solid #0d2748
+}
+
+.mup-widget-2 .mup-widget .mup-ft .mup-getwdgt {
+    padding: 3px 0;
+    font-size: 8px;
+    text-align: center;
+    background: #0A0A0A;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.mup-widget-2 .mup-widget .mup-ft .mup-logo {
+    padding: 6px 8px
+}
