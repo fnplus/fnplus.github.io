@@ -1401,7 +1401,7 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
 }
 
 .colorlib-nav-toggle.active i::before {
-	top: 0;
+	top: 15px;
 	-webkit-transform: rotateZ(45deg);
 	-moz-transform: rotateZ(45deg);
 	-ms-transform: rotateZ(45deg);
@@ -1411,6 +1411,7 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
 
 .colorlib-nav-toggle.active i::after {
 	bottom: 0;
+	top:15px;
 	-webkit-transform: rotateZ(-45deg);
 	-moz-transform: rotateZ(-45deg);
 	-ms-transform: rotateZ(-45deg);
