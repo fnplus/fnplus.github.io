@@ -1712,6 +1712,10 @@ canvas {
 	text-decoration: none;
 }
 
+.icon-bar a {
+	border-radius: 10px;
+}
+
 .btn-view:before {
 	content: '';
 	position: absolute;
